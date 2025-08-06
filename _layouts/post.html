@@ -2,8 +2,13 @@
 layout: default
 ---
 <article class="post h-entry px-4 py-8 max-w-3xl mx-auto" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <h2 class="mb-2 text-xl font-bold tracking-tight text-slate-900 dark:text-white transition-colors">
+          {{ page.title }}
+        </h2>
+
         <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="w-full h-55 object-cover">
-  <div class="post-content e-content prose prose-lg dark:prose-invert" itemprop="articleBody">
+  <div class="post-content e-content prose mt-2 prose-lg dark:prose-invert" itemprop="articleBody">
     {{ content }}
   </div>
   
