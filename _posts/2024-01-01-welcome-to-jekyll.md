@@ -1,7 +1,6 @@
 ---
-title: Welcome to Jekyll!
-image: https://placehold.co/600x400?text=Jekyll
-World
+title: "Welcome to Jekyll!"
+image: "https://placehold.co/600x400?text=Jekyll-World"
 date: 2024-01-01 00:00:00 -0000
 categories: jekyll update
 ---
