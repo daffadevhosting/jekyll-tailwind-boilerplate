@@ -5,7 +5,7 @@
     <nav class="site-nav">
       <div class="hidden md:block">
         {%- for item in site.data.navigation -%}
-          <a class="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md font-medium" href="{{ site.baseurl }}{{ item.url | relative_url }}">{{ item.title }}</a>
+          <a class="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md font-medium" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {%- endfor -%}
       </div>
       </nav>
