@@ -1,22 +1,5 @@
-<footer class="site-footer h-card bg-gray-800 dark:bg-gray-900 text-gray-300 dark:text-gray-400 py-8 mt-12 w-full">
-  <data class="u-url" href="{{ site.baseurl }}{{ "/" | relative_url }}"></data>
-
-  <div class="container mx-auto px-4">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-      <div class="text-center md:text-left w-full md:w-auto">
-        <p class="mb-0">
-          <a class="inline-flex items-center space-x-2 text-orange-400 hover:text-orange-300" href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon w-5 h-5 fill-current">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg>
-            <span>Subscribe</span>
-          </a>
-        </p>
-      </div>
-
-      <div class="text-center md:text-right w-full md:w-auto">
-        <p class="text-sm">{{ site.description | escape }}</p>
-      </div>
+<footer class="w-full bg-white border-t border-slate-200 dark:bg-slate-900 dark:border-slate-700">
+    <div class="container mx-auto py-5 px-4 text-center text-sm text-slate-500 dark:text-slate-400">
+      <p>&copy; {% capture current_year %}{{ 'now' | date: "%Y" }}{% endcapture %}{{ current_year }} {{ site.title }} &bull; Dibuat dengan <a href="https://jekyll-buildr.vercel.app/" target="_blank">Jekyll-Buildr</a> by Daffa</p>
     </div>
-  </div>
-</footer>
+  </footer>
